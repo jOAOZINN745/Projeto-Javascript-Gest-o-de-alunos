@@ -1,1 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  padding: 15px;
+}
+
+main {
+  background-color: #f5f7fa;
+  width: 600px;
+  max-width: 95%;
+  min-height: 700px;
+  margin: auto 20px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+section {
+  background-color: #73b4e9;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px;
+}
+
+form div {
+  padding: 5px;
+  margin: 10px;
+}
+
+input {
+  width: 180px;
+}
+
+#nota {
+  align-items: center;
+}
+#nota input {
+  width: 50px;
+}
+
+#listaAlunos div.aprovado {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+#listaAlunos div.reprovado {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+#listaAlunos div {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 170px;
+  height: 190px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 17px;
+}
+
+button{
+   border-color: black;
+   border-radius: 20px;
+}

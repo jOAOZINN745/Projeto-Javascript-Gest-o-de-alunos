@@ -53,10 +53,7 @@ formulario.addEventListener("submit", function (event) {
   }
 
   for (let i = 0; i < alunos.length; i++) {
-    if (
-      alunos[i].nome === nomeAluno &&
-      alunos[i].turma() === turmaAluno()
-    ) {
+    if (alunos[i].nome === nomeAluno && alunos[i].turma === turmaAluno) {
       mensagem.textContent = "Esse aluno já está cadastrado nessa turma!";
       nome.focus();
       return;
